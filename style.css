@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #9E4EA8;
+    padding: 10px;
+}
+
+img {
+    margin-right: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    display: inherit;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.header {
+    background-color: #E5A9B7;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 180px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 180px;
+
+}
+
+.miaw {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #5C288D;
+}
+
+.kittens {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #BF89B1;
+    border-radius: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7DFC7;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 30px;
+}
+
+.imgCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+/*Fonts and Styling*/
+
+.hero {
+    font-family: 'Climate Crisis', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: #BA218F;
+}
+
+.secHero {
+    font-family: 'Tilt Warp', cursive;
+    font-size: 18px;
+    color: #9E4EA8;
+}
+
+.thirdHero {
+    font-family: 'Tilt Warp', cursive;
+    font-size: 24px;
+    color: #9E4EA8;
+}
+
+.info {
+    font-family: 'Tilt Warp', cursive;
+    font-size: 36px;
+    color: #E5A9B7;
+    font-weight: 400;
+}
+
+.button {
+    background-color: #BF89B1;
+    color: #F9FAF8;
+    font-family: 'Tilt Warp', cursive;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
