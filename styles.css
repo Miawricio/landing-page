@@ -1,0 +1,207 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', 'sans-serif';
+    
+    margin: 0;
+}
+
+/* #################### */
+/*    CONTAINER ONE     */ 
+/* #################### */
+.container-one{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 20px 200px 100px 200px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px  100px;
+}
+
+.header p{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header ul{
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style: none;
+
+    display: flex;
+    gap: 20px;
+}
+
+.content-one{
+    display: flex;
+    margin: 20px 100px 80px;
+}
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.left-content h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.left-content p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+.left-content button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.left-content button:hover, .sign-up-btn button:hover{
+    background-color: #5091f8;
+}
+
+/* #################### */
+/*    CONTAINER ONE     */ 
+/* #################### */
+
+
+/* #################### */
+/*    CONTAINER TWO     */ 
+/* #################### */
+
+.container-two{
+display: flex;
+flex-direction: column;
+margin: 20px 40px; 
+padding: 50px 300px;
+}
+
+.container-two h1{
+    text-align: center;
+}
+
+.info-container{
+    display: flex;
+    gap: 70px;
+    padding: 40px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.info p{
+    text-align: justify;
+}
+
+/* #################### */
+/*    CONTAINER TWO     */ 
+/* #################### */
+
+
+
+/* #################### */
+/*    CONTAINER THREE   */ 
+/* #################### */
+
+.container-three{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px;
+}
+
+.container-three h1{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    color: #1F2937;
+    text-align: justify;
+}
+
+.container-three div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* #################### */
+/*    CONTAINER THREE   */ 
+/* #################### */
+
+
+/* #################### */
+/*    CONTAINER FOUR    */ 
+/* #################### */
+
+.sign-up{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 100px 250px;
+    padding: 80px 0;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign-up h1, .sign-up p{
+    margin: 0px;
+}
+
+.sign-up-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sign-up-btn button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 130px;
+    height: 30px;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    
+}
+
+/* #################### */
+/*    CONTAINER FOUR    */ 
+/* #################### */
+
+
+/* #################### */
+/*        FOOTER        */ 
+/* #################### */
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
